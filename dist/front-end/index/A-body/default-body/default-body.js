@@ -1,0 +1,1 @@
+define(["require","exports","back-end/utilities/GetDesign"],function(e,n,o){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),n.IndexDefaultBody=void 0,(n.IndexDefaultBody||(n.IndexDefaultBody={})).eventsFor=function(e){new o.GetDesign.forPage("login-header"),console.log("--".concat(e," Loaded"))}});

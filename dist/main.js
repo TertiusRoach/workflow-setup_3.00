@@ -1,0 +1,1 @@
+require(["main","mongo"],()=>{var o=window.location.href.split("/").pop().split(".")[0];require(["dist/vendors/font-awesome/js/all.min.js","dist/vendors/bootstrap/5.3.0/js/bootstrap.bundle.js","dist/vendors/jquery/3.6.0/3.6.0.min.js",`dist/front-end/${o}/${o}.js`]),console.log("--main.js Loaded")});

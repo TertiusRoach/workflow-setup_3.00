@@ -1,0 +1,9 @@
+.git
+.env
+types
+desktop.ini
+node_modules
+# package.json
+package-lock.json
+
+src/back-end/server/mongoDB/connect.js

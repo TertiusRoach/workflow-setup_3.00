@@ -1,0 +1,105 @@
+.default-header {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 5fr 2fr 5fr;
+
+  button {
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+    grid-template-columns: 1fr auto 1fr;
+
+    border: none;
+    outline: none;
+    cursor: default;
+    background: $primary-light;
+    transition: all 0.25s ease-in;
+    box-shadow: inset 0 0 2em rgba($primary-dark, 0.75);
+    :is(h1, h2, h3, h4, h5, h6) {
+      z-index: 2;
+      grid-row: 2/3;
+      cursor: pointer;
+      grid-column: 2/3;
+      color: $primary-dark;
+      text-shadow: 0 0 4px white; //--◄ X-axis, Y-axis, Blur, Color ◄--//
+      transition: all 0.25s ease-in;
+    }
+    :is(h1, h2, h3, h4, h5, h6):hover {
+      color: $primary-light;
+      text-shadow: 0 0 4px black; //--◄ X-axis, Y-axis, Blur, Color ◄--//
+    }
+
+    :first-child:hover ~ div {
+      clip-path: inset(0 0 0 0);
+    }
+    div:nth-child(2) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      z-index: 1;
+      height: 105%; //--◄ Google Chrome ◄--//
+      grid-row: 1/4;
+      grid-column: 1/4;
+      transition: clip-path 0.25s;
+      clip-path: inset(100% 0 0 0);
+      background-color: $primary-dark;
+      svg {
+        opacity: 0.25;
+        cursor: default;
+        color: $primary-medium;
+        //--▼ Big Screens ▼--//
+        @media only screen and (min-width: 1280px) {
+          width: 8em;
+          height: 8em;
+          //--► color: red; ◄--//
+        }
+        //--▼ Small Screens ▼--//
+        @media only screen and (max-width: 1279px) {
+          width: 3em;
+          height: 3em;
+          //--► color: blue; ◄--//
+        }
+      }
+    }
+  }
+  button:hover {
+    background: $primary-medium;
+  }
+  .active {
+    :is(h1, h2, h3, h4, h5, h6) {
+      opacity: 0;
+      cursor: default;
+
+      // color: $primary-light;
+      // text-shadow: 0 0 4px black; //--◄ X-axis, Y-axis, Blur, Color ◄--//
+    }
+    div:nth-child(2) {
+      clip-path: inset(0 0 0 0);
+    }
+  }
+  button[id*='button'],
+  button div {
+    border-radius: 8px 8px 0 0; //--◄ Top-left, Top-Right, Bottom-right, Bottom-left ◄--//
+  }
+
+  #login-button {
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
+  #signup-button {
+    grid-row: 1/2;
+    grid-column: 3/4;
+  }
+  //--▼ Desktop (Landscape) ▼--//
+  @media screen and (orientation: landscape) {
+    grid-row: 2/4;
+    grid-column: 8/20;
+    //--► background-color: darkred; ◄--//
+  }
+  //--▼ Mobile (Portrait) ▼--//
+  @media screen and (orientation: portrait) {
+    grid-row: 8/10;
+    grid-column: 2/14;
+    //--► background-color: darkblue; ◄--//
+  }
+}

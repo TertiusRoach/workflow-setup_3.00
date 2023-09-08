@@ -1,0 +1,1 @@
+define(["require","exports"],function(e,t){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.GridDefaultData=void 0,(t.GridDefaultData||(t.GridDefaultData={})).eventsFor=function(e){console.log("--".concat(e," Loaded"))}});
