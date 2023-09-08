@@ -4,8 +4,8 @@
   "description": "Maintaining projects shouldn't be hard when it becomes big.",
   "main": "gulpfile.js",
   "scripts": {
-    "startEncrypt": "nodemon src/back-end/server/encrypt.js",
-    "startConnect": "nodemon src/back-end/server/connect.js"
+    "startEncrypt": "nodemon src/back-end/server/mongoDB/encrypt.js",
+    "startConnect": "nodemon src/back-end/server/mongoDB/connect.js"
   },
   "keywords": [],
   "author": "",

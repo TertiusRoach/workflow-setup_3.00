@@ -2,48 +2,11 @@
 
 Maintaining big development projects can be challenging due to their complexity and the number of moving parts involved. However, it should not be hard if proper planning, organization, and communication are in place. Establishing clear goals, timelines, and responsibilities, as well as using appropriate project management tools and methodologies to help ensure that the project stays on track and all team members are aware of their tasks and deadlines. Ultimately, with the right approach and mindset, maintaining big development projects can be a manageable task and this is what I try to achieve with this project.
 
-## Project Links
-
-[Index](https://tertiusroach.github.io/workflow-setup_2.01/index.html)
-
-## Install NPM Commands for Node.js
+## Initialize Node.js
 
 ---
 
     npm init -y
-
----
-
-    npm install gulp
-    npm install sass
-    npm install jquery
-    npm install bcrypt
-    npm install express
-    npm install mongodb
-    npm install bootstrap
-    npm install typescript
-
----
-
-    npm install --save-dev gulp
-    npm install --save-dev gulp-sass
-    npm install --save-dev gulp-clean
-    npm install --save-dev gulp-concat
-    npm install --save-dev gulp-uglify
-    npm install --save-dev gulp-rename
-    npm install --save-dev gulp-htmlmin
-    npm install --save-dev gulp-uglifycss
-    npm install --save-dev gulp-typescript
-    npm install --save-dev gulp-sourcemaps
-    npm install --save-dev gulp-delete-file
-    npm install --save-dev gulp-string-replace
-    npm install --save-dev gulp-remove-html-comments
-
----
-
-    npm install --save-dev nodemon
-    npm install --save-dev @types/jquery
-    npm install --save-dev @google/clasp
 
 ---
 
@@ -189,4 +152,5 @@ Press (Ctrl + alt + s) to save without prettier reformatting the file.
 ---
 
 # TESTING REPOSITORY RELOCATION
+
 # workflow-setup_3.00
