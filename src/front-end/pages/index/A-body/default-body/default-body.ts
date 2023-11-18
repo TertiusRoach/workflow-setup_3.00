@@ -1,4 +1,4 @@
-import { GetDesign } from 'back-end/utilities/GetDesign';
+import { GetDesign } from 'front-end/utilities/GetDesign';
 export namespace IndexDefaultBody {
   export function eventsFor(blockName: String | 'default-body') {
     /* new GetDesign.forPage('default-overlay'); */

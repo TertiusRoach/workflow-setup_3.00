@@ -93,7 +93,7 @@ const compileSCSS = (pageName) => {
   };
 
   //--|▼| Execute functions asynchronously |▼|--//
-  setTimeout(concatenate, 0000, pageName);
+  setTimeout(concatenate, 2000, pageName);
   setTimeout(compile, 5000, pageName);
   setTimeout(remove, 10000, pageName);
 };

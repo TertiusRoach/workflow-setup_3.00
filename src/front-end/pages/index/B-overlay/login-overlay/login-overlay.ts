@@ -1,4 +1,4 @@
-import { mark } from 'back-end/tools/mark';
+import { mark } from 'front-end/tools/mark';
 export namespace IndexLoginOverlay {
   export function eventsFor(blockName: String | 'login-overlay') {
     //--▼ Login Elements ▼--//

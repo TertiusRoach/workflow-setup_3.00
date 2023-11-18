@@ -1,25 +1,25 @@
 //--|▼| Import Index |▼|--//
-import { IndexDefaultBody } from 'front-end/index/A-body/default-body/default-body';
-import { IndexLoginBody } from 'front-end/index/A-body/login-body/login-body';
+import { IndexDefaultBody } from 'front-end/pages/index/A-body/default-body/default-body';
+import { IndexLoginBody } from 'front-end/pages/index/A-body/login-body/login-body';
 
-import { IndexDefaultOverlay } from 'front-end/index/B-overlay/default-overlay/default-overlay';
-import { IndexLoginOverlay } from 'front-end/index/B-overlay/login-overlay/login-overlay';
+import { IndexDefaultOverlay } from 'front-end/pages/index/B-overlay/default-overlay/default-overlay';
+import { IndexLoginOverlay } from 'front-end/pages/index/B-overlay/login-overlay/login-overlay';
 
-import { IndexDefaultHeader } from 'front-end/index/C-header/default-header/default-header';
-import { IndexLoginHeader } from 'front-end/index/C-header/login-header/login-header';
+import { IndexDefaultHeader } from 'front-end/pages/index/C-header/default-header/default-header';
+import { IndexLoginHeader } from 'front-end/pages/index/C-header/login-header/login-header';
 
-import { IndexDefaultFooter } from 'front-end/index/D-footer/default-footer/default-footer';
-import { IndexLoginFooter } from 'front-end/index/D-footer/login-footer/login-footer';
+import { IndexDefaultFooter } from 'front-end/pages/index/D-footer/default-footer/default-footer';
+import { IndexLoginFooter } from 'front-end/pages/index/D-footer/login-footer/login-footer';
 
-import { IndexDefaultLeftbar } from 'front-end/index/E-leftbar/default-leftbar/default-leftbar';
+import { IndexDefaultLeftbar } from 'front-end/pages/index/E-leftbar/default-leftbar/default-leftbar';
 
-import { IndexDefaultRightbar } from 'front-end/index/F-rightbar/default-rightbar/default-rightbar';
+import { IndexDefaultRightbar } from 'front-end/pages/index/F-rightbar/default-rightbar/default-rightbar';
 
-import { IndexDefaultMain } from 'front-end/index/G-main/default-main/default-main';
-import { IndexGradientMain } from 'front-end/index/G-main/gradient-main/gradient-main';
+import { IndexDefaultMain } from 'front-end/pages/index/G-main/default-main/default-main';
+import { IndexGradientMain } from 'front-end/pages/index/G-main/gradient-main/gradient-main';
 
-import { IndexDefaultData } from 'front-end/index/H-data/default-data/default-data';
-import { IndexLoginData } from 'front-end/index/H-data/login-data/login-data';
+import { IndexDefaultData } from 'front-end/pages/index/H-data/default-data/default-data';
+import { IndexLoginData } from 'front-end/pages/index/H-data/login-data/login-data';
 
 //--|▼| Import Grid |▼|--//
 import { GridDefaultBody } from 'front-end/grid/A-body/default-body/default-body';

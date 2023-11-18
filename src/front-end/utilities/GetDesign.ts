@@ -1,4 +1,4 @@
-import { GetEvents } from 'back-end/utilities/GetEvents';
+import { GetEvents } from 'front-end/utilities/GetEvents';
 
 export namespace GetDesign {
   const distURI: String = fetchURI(window.location.href);

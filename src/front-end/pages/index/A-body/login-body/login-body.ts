@@ -1,4 +1,4 @@
-import { GetDesign } from 'back-end/utilities/GetDesign';
+import { GetDesign } from 'front-end/utilities/GetDesign';
 
 export namespace IndexLoginBody {
   export function eventsFor(blockName: String | 'login-body') {

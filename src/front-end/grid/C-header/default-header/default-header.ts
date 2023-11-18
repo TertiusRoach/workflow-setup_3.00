@@ -1,4 +1,4 @@
-import { select } from 'back-end/tools/select';
+import { select } from 'front-end/tools/select';
 
 export namespace GridDefaultHeader {
   export function eventsFor(blockName: String | 'default-header') {
